@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d1001f;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+.fecha {
+  font-size: 18px;
+  font-weight: bold;
+}
+.resumen span {
+  margin-left: 10px;
+  background: white;
+  color: black;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.lista {
+  margin-top: 20px;
+}
+.fila {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.nombre {
+  flex: 1;
+}
+.controles {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.controles .grupo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+button {
+  background: #d1001f;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.contador {
+  width: 30px;
+  text-align: center;
+  border: 1px solid #d1001f;
+  border-radius: 4px;
+  padding: 4px;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.nav button {
+  border-radius: 15px;
+  padding: 10px;
+  background: white;
+  color: #d1001f;
+  border: 2px solid #d1001f;
+}

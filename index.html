@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asistentes por Día</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-database.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="fecha" id="fechaLabel">24/7 Evento</div>
+    <div class="resumen">
+      <span>👤 Adulto: <span id="totalAdultos">0</span></span>
+      <span>🧒 Niños: <span id="totalNinos">0</span></span>
+    </div>
+  </div>
+
+  <div id="lista" class="lista"></div>
+
+  <div class="nav">
+    <button onclick="cambiarDia(-1)">&lt;---</button>
+    <button onclick="irAInicio()">Inicio</button>
+    <button onclick="cambiarDia(1)">---&gt;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
